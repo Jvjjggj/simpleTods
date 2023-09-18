@@ -1,0 +1,13 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffc2a0;
+  padding: 30px;
+}
+.card {
+  background-color: #ffffff;
+  width: 100%;
+}
+.head {
+  text-align: center;
+}
