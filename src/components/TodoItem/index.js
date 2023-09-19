@@ -15,7 +15,9 @@ class TodoItem extends Component {
     const {details} = this.state
     return (
       <div className="list">
-        <li className="list">{details.details.title}</li>
+        <li className="list">
+          <p>{details.details.title}</p>
+        </li>
         <button onClick={this.onDelete} type="button">
           Delete
         </button>
